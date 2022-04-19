@@ -1,0 +1,5 @@
+num = input('Введите целое число: ')
+list_num = list(num)
+list_num.reverse()
+reverse_num = ''.join(list_num)
+print(reverse_num)
